@@ -57,7 +57,31 @@ const Experience = () => {
             <article className='experience__details'>
                <BsPatchCheckFill className='experience__details-icon'/>
                <div>
-                  <h4>Next js (learning)</h4>
+                  <h4>Next js</h4>
+                  <small className='text-light'></small>
+               </div>
+            </article>
+
+            <article className='experience__details'>
+               <BsPatchCheckFill className='experience__details-icon'/>
+               <div>
+                  <h4>React Native</h4>
+                  <small className='text-light'></small>
+               </div>
+            </article>
+
+            <article className='experience__details'>
+               <BsPatchCheckFill className='experience__details-icon'/>
+               <div>
+                  <h4>Typescript</h4>
+                  <small className='text-light'></small>
+               </div>
+            </article>
+
+            <article className='experience__details'>
+               <BsPatchCheckFill className='experience__details-icon'/>
+               <div>
+                  <h4>MUI & Chakra UI</h4>
                   <small className='text-light'></small>
                </div>
             </article>
@@ -107,6 +131,14 @@ const Experience = () => {
                <BsPatchCheckFill className='experience__details-icon'/>
                <div>
                   <h4>MongoDB</h4>
+                  <small className='text-light'></small>
+               </div>
+            </article>
+
+            <article className='experience__details'>
+               <BsPatchCheckFill className='experience__details-icon'/>
+               <div>
+                  <h4>mongoose</h4>
                   <small className='text-light'></small>
                </div>
             </article>
