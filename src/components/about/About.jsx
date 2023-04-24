@@ -8,8 +8,8 @@ import {VscFolderLibrary} from 'react-icons/vsc'
 const About = () => {
   return (
     <section id='about'>
-      <h5>Get To Know</h5>
-      <h2>About Me</h2>
+      <h5>Conoce un poco</h5>
+      <h2>Sobre mi</h2>
 
       <div className="container about__container">
         <div className="about__me">
@@ -22,37 +22,34 @@ const About = () => {
           <div className="about__cards">
             <article className='about__card'>
               <FaAward className='about__icon'/>
-              <h5>Experience</h5>
-              <small>Front End Developer</small>
+              <h5>Experiencia</h5>
+              <small>Fullstack Developer</small>
             </article>
 
             <article className='about__card'>
               <FiUsers className='about__icon'/>
-              <h5>Work</h5>
-              <small>Very Good Teamwork</small>
+              <h5>Trabajo</h5>
+              <small>Bueno en Teamwork</small>
             </article>
 
             <article className='about__card'>
               <VscFolderLibrary className='about__icon'/>
-              <h5>Projects</h5>
-              <small>5+ Completed</small>
+              <h5>Proyectos</h5>
+              <small>10+ Completados</small>
             </article>
           </div>
 
           <p>
-            I'm going to tell you a little about myself <br/> <br/>
-            I'm a Fullstack Developer, who loves everything related to programming. <br/>
-            Literally i can be spending time the whole day programming (hours and hours) , and i dont notice <br/><br/>
-            I'm passionate about creating solutions to all kinds of problems in the world of programming.<br/><br/>
-            I like to learn new things all the time<br/><br/>
-            I'm currently taking my first steps in this world, but i consider myself a person who is very capable of performing very <br/>
-            well anywhere.<br/><br/>
-            
-            I'm a very responsible person and good at teamwork<br/><br/> 
-            This is the kind of person I am. I never leave anything half done, I always say, "if something has to be done, it has to be done well"
+            Te voy a contar un poco sobre mi <br/> <br/>
+            Soy un apasionado desarrollador de software con experiencia en el desarrollo de aplicaciones móviles, web y proyectos empresariales. <br/>
+            Me considero una persona proactiva y curiosa, siempre buscando mejorar mis habilidades en un entorno de trabajo estimulante. <br/><br/>
+            Me motiva trabajar en proyectos desafiantes que tengan un impacto positivo en la sociedad, y estoy comprometido a colaborar en equipo para cumplir los objetivos establecidos. <br/><br/>
+            Creo en la importancia de aprender constantemente y estar al día con las últimas tendencias y tecnologías en mi campo. Estoy emocionado de enfrentar nuevos desafíos y continuar creciendo en mi carrera como desarrollador de software. 
+
+              
           </p>
 
-          <a id='btnAbout' href="#contact" className='btn btn-primary'>Let's Talk</a>
+          <a id='btnAbout' href="#contact" className='btn btn-primary'>Enviar mensaje</a>
         </div>
       </div>
     </section>
